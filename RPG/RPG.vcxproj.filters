@@ -1,0 +1,555 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{65177614-a33f-4e1e-aa2b-b92e23b6adec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{4b443d4d-3e2a-47d2-8450-301fdfd861df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Battle">
+      <UniqueIdentifier>{c418ecb5-5fde-413a-9fe8-cf7298d4fe66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Content">
+      <UniqueIdentifier>{051e7b21-7fd3-4a0f-9ddc-f38701a0e8d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Data">
+      <UniqueIdentifier>{c9e25de1-e88c-4bc1-b2f8-f8187f1daa62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Enemy">
+      <UniqueIdentifier>{cec9b3c9-88f6-4593-86fd-c16e5c84a514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Hero">
+      <UniqueIdentifier>{48eeb25f-f13a-47a7-9b20-f8438579cdb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Map">
+      <UniqueIdentifier>{9f77092c-6223-4b2e-a183-c80a62d85fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu">
+      <UniqueIdentifier>{4b850846-7ffc-4096-9603-42ba37cf0f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Skill">
+      <UniqueIdentifier>{c94098d3-6bb9-48ee-9362-0bc2360d0d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Stats">
+      <UniqueIdentifier>{aa78044d-b115-4ba1-a35c-955f3f72798d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Map\Area">
+      <UniqueIdentifier>{755111b5-3d20-4852-8645-0b01572ecb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Map\Map Object">
+      <UniqueIdentifier>{c20359f2-5ad1-4c2e-81c6-42989aa24b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Map\Map Object\Chest">
+      <UniqueIdentifier>{dad3efb9-991e-4556-b717-e109e4c5be87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu">
+      <UniqueIdentifier>{24948622-cd36-4399-8e1a-efa523ff8399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Load Game Menu">
+      <UniqueIdentifier>{012da8a9-cc2f-4b14-b823-ae107f1d280a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Map Menu">
+      <UniqueIdentifier>{2e2b4b47-a12b-4bef-ac07-82092b5a0f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\New Game Menu">
+      <UniqueIdentifier>{37335df0-7cad-4ae8-8a6d-4e86fbf3f30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Options Menu">
+      <UniqueIdentifier>{5bca55e9-3dd0-46b6-91c6-8dd53b206113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu\Achievements Menu">
+      <UniqueIdentifier>{51e0a8b2-7b2b-466f-b097-f1ef27337b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu\External Items Menu">
+      <UniqueIdentifier>{3d927ff0-5c86-406d-ab3d-30b09413edb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu\Inventory Menu">
+      <UniqueIdentifier>{d46fb3ee-555e-42a0-9700-8d0c04febd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu\Quests Menu">
+      <UniqueIdentifier>{89b8e436-56fc-4b5d-b6bc-051e3b8a224a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu\Skills Menu">
+      <UniqueIdentifier>{c83c4b8a-9145-4324-a637-6dfc046c95f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu\Character Menu\Inventory Menu\Character Stats">
+      <UniqueIdentifier>{bd3db24f-f51a-40d4-b853-3ead085aaf53}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+    <Text Include="Resources\Read Me.txt">
+      <Filter>Resources</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\Main.cpp" />
+    <ClCompile Include="Classes\Achievement.cpp">
+      <Filter>Classes\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Item.cpp">
+      <Filter>Classes\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Quest.cpp">
+      <Filter>Classes\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Configuration.cpp">
+      <Filter>Classes\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Database.cpp">
+      <Filter>Classes\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameRPG.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Hero.cpp">
+      <Filter>Classes\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Mage.cpp">
+      <Filter>Classes\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Warrior.cpp">
+      <Filter>Classes\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Map.cpp">
+      <Filter>Classes\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MapDataState.cpp">
+      <Filter>Classes\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MapManager.cpp">
+      <Filter>Classes\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MapArea00.cpp">
+      <Filter>Classes\Map\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MapArea01.cpp">
+      <Filter>Classes\Map\Area</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\BaseChest.cpp">
+      <Filter>Classes\Map\Map Object\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Chest.cpp">
+      <Filter>Classes\Map\Map Object\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\PrivateChest.cpp">
+      <Filter>Classes\Map\Map Object\Chest</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AnimatedMapObject.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Character.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Door.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Gateway.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\NPC.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SaveCrystal.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Shop.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StaticMapObject.cpp">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameTopInterface.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MainMenu.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Menu.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Skill.cpp">
+      <Filter>Classes\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SkillActive.cpp">
+      <Filter>Classes\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SkillLevel.cpp">
+      <Filter>Classes\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SkillNatural.cpp">
+      <Filter>Classes\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Ability.cpp">
+      <Filter>Classes\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Elemental.cpp">
+      <Filter>Classes\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Stats.cpp">
+      <Filter>Classes\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StatsBasic.cpp">
+      <Filter>Classes\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\StatusNegative.cpp">
+      <Filter>Classes\Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterMenu.cpp">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\FullCharacterOptionsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\InformationMenu.cpp">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SimpleCharacterOptionsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AchievementsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Achievements Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ChestInventoryMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ChestMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ExternalItemsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ShopInventoryMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ShopMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\QuestsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Quests Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ClassSkillsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MageSkillsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SkillButton.cpp">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SkillsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\WarriorSkillsMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\BattleItems.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterInventoryMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Inventory.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\InventoryMenu.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ItemButton.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStats.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStatsElementalProperties.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStatsGeneralAbilities.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStatsMainStats.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStatsNaturalProperties.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStatsPage.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CharacterStatsStatusProperties.cpp">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\LoadGameMenu.cpp">
+      <Filter>Classes\Menu\Load Game Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MapMenu.cpp">
+      <Filter>Classes\Menu\Map Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\PauseMenu.cpp">
+      <Filter>Classes\Menu\Map Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\TeleportMenu.cpp">
+      <Filter>Classes\Menu\Map Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\ClassSelector.cpp">
+      <Filter>Classes\Menu\New Game Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\NewGameMenu.cpp">
+      <Filter>Classes\Menu\New Game Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\OptionsMenu.cpp">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\OptionsMenuAudio.cpp">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\OptionsMenuGameplay.cpp">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\OptionsMenuVideo.cpp">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Main.h" />
+    <ClInclude Include="Classes\Achievement.h">
+      <Filter>Classes\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Item.h">
+      <Filter>Classes\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Quest.h">
+      <Filter>Classes\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Configuration.h">
+      <Filter>Classes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Database.h">
+      <Filter>Classes\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameRPG.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Hero.h">
+      <Filter>Classes\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Mage.h">
+      <Filter>Classes\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Warrior.h">
+      <Filter>Classes\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Map.h">
+      <Filter>Classes\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MapDataState.h">
+      <Filter>Classes\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MapManager.h">
+      <Filter>Classes\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MapArea00.h">
+      <Filter>Classes\Map\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MapArea01.h">
+      <Filter>Classes\Map\Area</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\BaseChest.h">
+      <Filter>Classes\Map\Map Object\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Chest.h">
+      <Filter>Classes\Map\Map Object\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\PrivateChest.h">
+      <Filter>Classes\Map\Map Object\Chest</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AnimatedMapObject.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Character.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Door.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Gateway.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\NPC.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SaveCrystal.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Shop.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StaticMapObject.h">
+      <Filter>Classes\Map\Map Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameTopInterface.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MainMenu.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Menu.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Skill.h">
+      <Filter>Classes\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SkillActive.h">
+      <Filter>Classes\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SkillLevel.h">
+      <Filter>Classes\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SkillNatural.h">
+      <Filter>Classes\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Ability.h">
+      <Filter>Classes\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Elemental.h">
+      <Filter>Classes\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Stats.h">
+      <Filter>Classes\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StatsBasic.h">
+      <Filter>Classes\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\StatusNegative.h">
+      <Filter>Classes\Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterMenu.h">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\FullCharacterOptionsMenu.h">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\InformationMenu.h">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SimpleCharacterOptionsMenu.h">
+      <Filter>Classes\Menu\Character Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AchievementsMenu.h">
+      <Filter>Classes\Menu\Character Menu\Achievements Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ChestInventoryMenu.h">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ChestMenu.h">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ExternalItemsMenu.h">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ShopInventoryMenu.h">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ShopMenu.h">
+      <Filter>Classes\Menu\Character Menu\External Items Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\QuestsMenu.h">
+      <Filter>Classes\Menu\Character Menu\Quests Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ClassSkillsMenu.h">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MageSkillsMenu.h">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SkillButton.h">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SkillsMenu.h">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\WarriorSkillsMenu.h">
+      <Filter>Classes\Menu\Character Menu\Skills Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\BattleItems.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterInventoryMenu.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Inventory.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\InventoryMenu.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ItemButton.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStats.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStatsElementalProperties.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStatsGeneralAbilities.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStatsMainStats.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStatsNaturalProperties.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStatsPage.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CharacterStatsStatusProperties.h">
+      <Filter>Classes\Menu\Character Menu\Inventory Menu\Character Stats</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\LoadGameMenu.h">
+      <Filter>Classes\Menu\Load Game Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MapMenu.h">
+      <Filter>Classes\Menu\Map Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\PauseMenu.h">
+      <Filter>Classes\Menu\Map Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\TeleportMenu.h">
+      <Filter>Classes\Menu\Map Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\ClassSelector.h">
+      <Filter>Classes\Menu\New Game Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\NewGameMenu.h">
+      <Filter>Classes\Menu\New Game Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\OptionsMenu.h">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\OptionsMenuAudio.h">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\OptionsMenuGameplay.h">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\OptionsMenuVideo.h">
+      <Filter>Classes\Menu\Options Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\Application.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Icon\ApplicationResource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

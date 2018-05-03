@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bdb184ff-b543-4def-a8d8-3ab2a1c1ec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{d767db19-7ba4-4798-87c2-c70599da3cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Menu">
+      <UniqueIdentifier>{205361f7-245a-4b7b-8a75-5db2e0cd9af6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Match">
+      <UniqueIdentifier>{49a23ec7-1fe0-4d05-8d9f-5cb65c0714fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Match\Card">
+      <UniqueIdentifier>{d2245486-3bd6-4ad6-a7e4-ac6de0ac7b64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\Main.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameTripleTriad.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MainMenu.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameTopInterface.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\MatchGame.cpp">
+      <Filter>Classes\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Player.cpp">
+      <Filter>Classes\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Card.cpp">
+      <Filter>Classes\Match\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\CardStats.cpp">
+      <Filter>Classes\Match\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\RenderTargetCard.cpp">
+      <Filter>Classes\Match\Card</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Board.cpp">
+      <Filter>Classes\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Rule.cpp">
+      <Filter>Classes\Match</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Minimax.cpp">
+      <Filter>Classes\Match</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Read Me.txt">
+      <Filter>Resources</Filter>
+    </Text>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\GameTripleTriad.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Main.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MainMenu.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameTopInterface.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\MatchGame.h">
+      <Filter>Classes\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Player.h">
+      <Filter>Classes\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Card.h">
+      <Filter>Classes\Match\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\CardStats.h">
+      <Filter>Classes\Match\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\RenderTargetCard.h">
+      <Filter>Classes\Match\Card</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Board.h">
+      <Filter>Classes\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Rule.h">
+      <Filter>Classes\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Minimax.h">
+      <Filter>Classes\Match</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Icon\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\Application.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="Resources\Texture\Window.png" />
+    <Image Include="Resources\Texture\Background.png" />
+    <Image Include="Resources\Texture\Card Back Face.png" />
+    <Image Include="Resources\Texture\Cards Level 01.png" />
+    <Image Include="Resources\Texture\Cards Level 02.png" />
+    <Image Include="Resources\Texture\Cards Level 03.png" />
+    <Image Include="Resources\Texture\Cards Level 04.png" />
+    <Image Include="Resources\Texture\Cards Level 05.png" />
+    <Image Include="Resources\Texture\Cards Level 06.png" />
+    <Image Include="Resources\Texture\Cards Level 07.png" />
+    <Image Include="Resources\Texture\Cards Level 08.png" />
+    <Image Include="Resources\Texture\Cards Level 09.png" />
+    <Image Include="Resources\Texture\Cards Level 10.png" />
+    <Image Include="Resources\Texture\Interface.png" />
+    <Image Include="Resources\Texture\Squaresoft Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Icon\ApplicationResource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagram.cd" />
+    <None Include="Data.pkg" />
+    <None Include="Resources\Sound\Turn Card.ogg" />
+    <None Include="Resources\Sound\Cursor Cancel.ogg" />
+    <None Include="Resources\Sound\Cursor Error.ogg" />
+    <None Include="Resources\Sound\Cursor Move.ogg" />
+    <None Include="Resources\Sound\Draw Card.ogg" />
+    <None Include="Resources\Sound\Random Player Turn.ogg" />
+    <None Include="Resources\Music\Main Theme.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Font\Segoe UI Bold.ttf" />
+    <Font Include="Resources\Font\Tahoma.ttf" />
+    <Font Include="Resources\Font\Times New Roman Bold Italic.ttf" />
+    <Font Include="Resources\Font\Times New Roman Bold.ttf" />
+    <Font Include="Resources\Font\Algerian.ttf" />
+  </ItemGroup>
+</Project>

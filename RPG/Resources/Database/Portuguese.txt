@@ -1,0 +1,300 @@
+Confirmar
+Padrão
+Voltar
+Desativado
+Ativado
+Lento
+Normal
+Rápido
+Novo Jogo
+Carregar Jogo
+Opções
+Sair
+Avatar
+Guerreiro
+Guerreiros são hábils em combate, e geralmente, podem fazer uso de
+algumas das mais poderosa armadura pesada e armas.
+Mago
+Magos podem lançar magias elementais, são combatentes poderosos que
+pode empregar uma variedade de magias diferentes.
+Digite um nome aqui!
+*Nome inválido ou curto!
+Jogabilidade
+Vídeo
+Áudio
+Aplicar
+Idioma:
+Inglês
+Português
+Velocidade do Texto:
+Normal
+Rápido
+Imediatamente
+Janela Padrão:
+Rubro Negro
+Janela Customizada:
+Esquerda Superior
+Direita Superior
+Esquerda Inferior
+Direita Inferior
+Resolução:
+Profundidade de Cor:
+Filtro de Textura:
+Nenhum
+Linear
+Tela Cheia
+Sincronização Vertical
+Motor de Áudio:
+Volume da Música:
+Volume do Som:
+Inventário
+Habilidades
+Objetivos
+Conquistas
+Baú
+Baú Privado
+Classe:
+Nível:
+Experiência:
+Próximo Nível:
+PV:
+PM:
+Dano Físico:
+Resistência Física:
+Dano Mágico:
+Resistência Mágica:
+Acerto:
+Evasão:
+Velocidade:
+Movimento:
+Força:
+Inteligência:
+Agilidade:
+Pontos de Atributos:
+Ouro
+Propriedades dos Elementos
+Efeito de Elemento:
+Dano de Fogo:
+Dano de Gelo:
+Dano de Relâmpago:
+Dano de Luz:
+Dano de Trevas:
+Resistência a Fogo:
+Resistência a Gelo:
+Resistência a Relâmpago:
+Resistência a Luz:
+Resistência a Trevas:
+Absorção de Fogo:
+Absorção de Gelo:
+Absorção de Relâmpago:
+Absorção de Luz:
+Absorção de Trevas:
+Propriedades dos Estados
+Efeito de Estado:
+Ataque de Ferida:
+Ataque de Lentidão:
+Ataque de Cansaço:
+Ataque de Enxaqueca:
+Ataque de Cegueira:
+Defesa de Ferida:
+Defesa de Lentidão:
+Defesa de Cansaço:
+Defesa de Enxaqueca:
+Defesa de Cegueira:
+Propriedades Naturais
+Ataque Crítico:
+Ataque Rápido:
+Contra Ataque:
+Roubar PV:
+Roubar PM:
+Regenerar PV:
+Regenerar PM:
+Habilidades Gerais
+Analista
+Treinador
+Recompensa
+Consumidor
+Covarde
+Corajoso
+Corredor
+Fatiador de Pele
+Esmagador de Osso
+Furador de Casco
+Comedor de Humano
+Assassino de Besta
+Purificador de Morto-Vivo
+Caçador de Demônio
+Matador de Dragão
+Página anterior.
+Página posterior.
+Valores individuais para cada mão.
+Nome do personagem.
+Classe do personagem com habilidades únicas.
+Nível do personagem atual, pode desbloquear habilidades e equipamentos para uso.
+Pontos de experiência atuais.
+Pontos de experiência para o próximo nível.
+Pontos de vida que determinam a sua vida. 0 significa que você está morto!
+Pontos de magia para usar suas habilidades.
+Danos físicos por ataque.
+Redução de dano físico.
+Dano mágico que será adicionado à algumas habilidades.
+Redução de dano mágico.
+Chance de acertar um ataque físico.
+Chance de esquivar de um ataque físico.
+Velocidade em batalha para agir mais rápido.
+Velocidade de movimento fora da batalha.
+Aumenta o dano físico, resistência física e PV.
+Aumenta o dano mágico, resistência mágica e PM.
+Aumenta o acerto, evasão e velocidade.
+Ganha pontos por nível para distribuir entre os atributos primários.
+Aumentar a força por custo de um ponto de atributo.
+Aumentar a inteligência por custo de um ponto de atributo.
+Aumentar a agilidade por custo de um ponto de atributo.
+Quando ativado, automaticamente adiciona dano elemental no ataque e em algumas habilidades.
+Dano elemental adicionado no ataque e em algumas habilidades.
+Efeito elemental necessário!
+Reduz o dano elemental.
+Absorve dano elemental, ativado quando resistir completamente.
+Quando ativado, adiciona automaticamente a mudança de estado no ataque e em algumas habilidades.
+Mudança de estado adicionada no ataque e em algumas habilidades.
+Efeito de estado necessário!
+Chance de evitar a mudança de status.
+Ferida: Perde PV com o tempo.
+Lentidão: Diminui a velocidade.
+Cansaço: Perde todo o tempo de ação, após uma ação na batalha.
+Enxaqueca: Reduz a chance de usar habilidades.
+Cegueira: Diminui a precisão de ataques físicos.
+Chance de desferir um ataque crítico, ao usar ataques físicos.
+Chance de desferir um ataque físico adicional, ao usar ataques físicos uma vez.
+Chance de desferir um ataque físico, ao ser atacado por ataques físicos.
+Rouba PV do dano físico causado.
+Rouba PM do dano físico causado.
+Recupera PV gradualmente.
+Recupera PM gradualmente.
+Pode ver a barra de ação do inimigo e identificar os itens antes do final da batalha.
+Recebe mais experiência de inimigos.
+Recebe mais ouro dos inimigos.
+Ganha descontos de itens que estão sendo vendidos em lojas.
+Diminui a chance de encontrar inimigos.
+Aumenta a chance de encontrar inimigos.
+Aumenta a velocidade de movimento.
+Causa dano completo em inimigos com armadura contra corte.
+Causa dano completo em inimigos com armadura contra esmagamento.
+Causa dano completo em inimigos com armadura contra perfuração.
+Aumenta o dano final contra os inimigos do tipo humano.
+Aumenta o dano final contra os inimigos do tipo besta.
+Aumenta o dano final contra os inimigos do tipo morto-vivo.
+Aumenta o dano final contra os inimigos do tipo demônio.
+Aumenta o dano final contra os inimigos do tipo dragão.
+Equipar uma arma ou escudo.
+Equipar um elmo.
+Equipar uma armadura.
+Equipar luvas.
+Equipar botas.
+Equipar um acessório.
+Descartar um item.
+Itens de Batalha:
+Pontos de Habilidade:
+Ganha pontos por nível para aumentar o nível de habilidade.
+Aprender:
+Tipo:
+Natural
+Ativo
+Nova Habilidade
+Nv:
+Atual Nível da Habilidade:
+Próximo Nível da Habilidade:
+Somente arma corpo a corpo!
+Aprendida!
+Subiu de nível!
+Domínio em Cortes
+Aumenta o dano físico, ataque crítico, e outras estatísticas usando armas baseadas em corte.
+Objetivo principal, clique para mais detalhes!
+Objetivo opcional, clique para mais detalhes!
+Objetivo foi concluído!
+Objetivo iniciado: 
+Objetivo concluído: 
+NOME DO OBJETIVO PRINCIPAL TESTE
+Descrição do Objetivo Principal Teste.
+NOME DO OBJETIVO OPCIONAL TESTE
+Traga {0}/{1} itens de teste (OPCIONAL TESTE).
+Conquista, clique para mais detalhes!
+Conquista Desbloqueada:
+Habilidoso
+Domine uma habilidade alcançando o nível máximo.
+Usável
+Item de Objetivo
+Adaga
+Espada
+Machado
+Maça
+Bastão
+Lança
+Arco
+Escudo
+Elmo
+Armadura
+Luvas
+Botas
+Acessório
+Nível Necessário:
+Peso:
+Uma-Mão
+Duas-Mãos
+PV Máximo:
+PM Máximo:
+Corta
+Esmaga
+Perfura
+[Botão direito para usar]
+[SHIFT + clique para vender]
+[Não pode ser vendido ou colocado em qualquer local público]
+Recuperador Físico Nível 1
+Recuperador Físico Nível 2
+Recuperador Físico Nível 3
+Recuperador Físico Nível 4
+Recuperador Físico Nível 5
+Recuperador Mágico Nível 1
+Recuperador Mágico Nível 2
+Recuperador Mágico Nível 3
+Recuperador Mágico Nível 4
+Recuperador Mágico Nível 5
+Recuperado!
+Recupera
+Carta
+Contém algumas informações.
+Espada Curta
+Espada Larga
+Espada Longa
+Escudo Buckler
+Boné
+Roupa
+Luvas de Couro
+Botas de Couro
+Anel Comum
+Loja de Item
+Loja de Arma
+Loja de Armadura
+Conversar
+Cristal de Salvamento
+Salvar
+Teleportar
+Teleporte ativado!
+Destino:
+Abrir
+Ir para
+Abrir o menu do personagem.
+Pausar o jogo, acessar o menu de configurações ou sair do jogo atual.
+Resumir
+Lugar Nenhum
+Loja de Item
+Nome do NPC 0
+Começar objetivo: 
+Concluir objetivo: 
+?
+Sim
+Não
+Vendedor
+Quer ver meus de itens à venda?
+Sim (Comprar/Vender)
+Não (Sair)

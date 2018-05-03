@@ -1,0 +1,33 @@
+#include <Windows.h>
+
+#define ICON_ID 1
+
+ICON_ID  ICON "Application.ico"
+
+	//Version Info
+	1 VERSIONINFO
+	FILEVERSION 1,0,0,0
+	PRODUCTVERSION 1,0,0,0
+	FILEOS VOS__WINDOWS32
+	FILETYPE VFT_APP
+{
+	BLOCK "StringFileInfo"
+	{
+		BLOCK "000004E4"
+		{
+			VALUE "CompanyName","Developed by Marcelo"
+				//VALUE "FileVersion","<FileVersion>"
+				//VALUE "FileDescription","<FileDescription>"
+				//VALUE "InternalName","<InternalName>"
+				//VALUE "LegalCopyright","<LegalCopyright>"
+				//VALUE "LegalTrademarks","<LegalTrademarks>"
+				//VALUE "OriginalFilename","<OriginalFilename>"
+				//VALUE "ProductName","<ProductName>"
+				//VALUE "ProductVersion","<ProductVersion>"
+		}
+	}
+	BLOCK "VarFileInfo"
+	{
+		VALUE "Translation",0,1252
+	}
+}

@@ -1,0 +1,18 @@
+RECENTS:
+Adicionando TinyXML (Wrapper no GPL) fazer classe Database só carregar na memoria o que for usar na hora (não tudo como está agora)
+
+BUGS:
+Quando se teleporta aparece a ponta do MapMenu na parte de baixo da tela.
+Cursor sobre a porta e aperta ESC para o menu e depois volta aparece em 1 loop o texto
+
+ISSUES:
+Ajusta a sombra do personagem para esquerda ou direita quando estiver para estes lados
+Map deve precisar de Text Dynamic para mostrar o HP MP Regen
+DB ler tudo de um arquivo externo e sem usar index: resolver com enums.
+Se causar uma performance ruim no Pathfind vai no SetNodeFinal e apaga o resetar do valor la.
+
+GAMEPLAY:
+Weight colocar como % para descontar do speed?
+HP/MP Drain for Magical Damage.
+Add Monster Database Menu.
+Add Tutorial/Help Menu para mostrar as hotkeys, etc.

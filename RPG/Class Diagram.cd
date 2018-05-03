@@ -1,0 +1,662 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPG::GameRPG" Collapsed="true">
+    <Position X="79.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAARECpiAJEAEkCgAggAACUEIAAgCAAQAgwBAA=</HashCode>
+      <FileName>Classes\GameRPG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Achievement" Collapsed="true">
+    <Position X="78" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAEAAAAEAAAAAAAAAACAAAAAAAAAEAAA=</HashCode>
+      <FileName>Classes\Achievement.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Item" Collapsed="true">
+    <Position X="81.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CzVYjKAQiAgQJAKQJgIThAAECgEFDCg1JWGA0AABRhA=</HashCode>
+      <FileName>Classes\Item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Quest" Collapsed="true">
+    <Position X="79.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAgAAAAAAAAgAAAgABAADAAIAACAAAAAAA=</HashCode>
+      <FileName>Classes\Quest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Configuration" Collapsed="true">
+    <Position X="83.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TAAQIIAgAAUAAAzBUBQJJIRAQAQAAoAgkAArEkKC0WQ=</HashCode>
+      <FileName>Classes\Configuration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Database" Collapsed="true">
+    <Position X="76.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAIAAAAAAEACAAAAAgAAAgBBAQQSgABAkAAAAAACCI=</HashCode>
+      <FileName>Classes\Database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Hero" Collapsed="true">
+    <Position X="6.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8QFOI1Y6AiCvRuRAKQoYBRh9LARNEBCLcioQniFhDqE=</HashCode>
+      <FileName>Classes\Hero.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Mage" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\Mage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Warrior" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Warrior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Map" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qAQko2AgqHrCUURAIgIMNgiGgAgUB1jRIhCMQOpAAYw=</HashCode>
+      <FileName>Classes\Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MapDataState" Collapsed="true">
+    <Position X="76.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Classes\MapDataState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MapManager" Collapsed="true">
+    <Position X="78" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAFAAQACAAAAIAIAAAEAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Classes\MapManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MapArea00" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAIAACAAAACAAgEIAAAcAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MapArea00.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MapArea01" Collapsed="true">
+    <Position X="2.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAAAAAACAAABCAAgEIAAAcAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MapArea01.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::AnimatedMapObject" Collapsed="true">
+    <Position X="79.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAAAAAEBAAAAAGAAAEAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AnimatedMapObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Character" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gOVAABRABwICJAQQIAQACghEAEAEgclIYCAOAUSKCAE=</HashCode>
+      <FileName>Classes\Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Door" Collapsed="true">
+    <Position X="3.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEQBACAAAEAACAAAAAIAAAAEAIAEAEAAAAEEAAAAAIA=</HashCode>
+      <FileName>Classes\Door.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Gateway" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCQAAAAAAAAAAABIAAAAIAAEAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Gateway.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::NPC" Collapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAAQAAAIABAQAAAAAAAEEAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Classes\NPC.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SaveCrystal" Collapsed="true">
+    <Position X="81.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAACAAAABAAAIAAgAGAEAEAEAgAAAAAAAAEBA=</HashCode>
+      <FileName>Classes\SaveCrystal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Shop" Collapsed="true">
+    <Position X="83.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAgACAAgAAAAAAAAAAAFA=</HashCode>
+      <FileName>Classes\Shop.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::StaticMapObject" Collapsed="true">
+    <Position X="79.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAEADAEAEACAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\StaticMapObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::BaseChest" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEQhAAgAAAgBQABABECAAEAEAFAUAkAAAAEAAAgAAIA=</HashCode>
+      <FileName>Classes\BaseChest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Chest" Collapsed="true">
+    <Position X="5.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEgAQAAABAgAAAAAgAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Chest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::PrivateChest" Collapsed="true">
+    <Position X="7.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgAAAAABAgAAAAAAAAAAiAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\PrivateChest.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::GameTopInterface" Collapsed="true">
+    <Position X="13" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAEAAAAAAABAAAAEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Classes\GameTopInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MainMenu" Collapsed="true">
+    <Position X="19.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACAAAAAAAAAAEAAAQAAAIAAAgAAAACAgAAAA=</HashCode>
+      <FileName>Classes\MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Menu" Collapsed="true">
+    <Position X="38.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAwAAAAgwAJAAAAFAAAEBBAACAAMKCAAAAAQAAAYAAA=</HashCode>
+      <FileName>Classes\Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterMenu" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAACAAEAAAACAAIAAQAACAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Classes\CharacterMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::FullCharacterOptionsMenu" Collapsed="true">
+    <Position X="55.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEACAAAAAABAAAAAAAASIACCAABAAAIAAAAIAAA=</HashCode>
+      <FileName>Classes\FullCharacterOptionsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::InformationMenu" Collapsed="true">
+    <Position X="49" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAACAAAAgAA=</HashCode>
+      <FileName>Classes\InformationMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SimpleCharacterOptionsMenu" Collapsed="true">
+    <Position X="55.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAEAACACAAAAAAABBEIgAQEAEAAAAAAAgAAACAAAA=</HashCode>
+      <FileName>Classes\SimpleCharacterOptionsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::AchievementsMenu" Collapsed="true">
+    <Position X="71.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAACACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\AchievementsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ChestInventoryMenu" Collapsed="true">
+    <Position X="58" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChestInventoryMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ChestMenu" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ChestMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ExternalItemsMenu" Collapsed="true">
+    <Position X="15.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAAAAAAAAgAIAAQAAAAAgAAAAAAEAAAAAA=</HashCode>
+      <FileName>Classes\ExternalItemsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ShopInventoryMenu" Collapsed="true">
+    <Position X="60.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Classes\ShopInventoryMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ShopMenu" Collapsed="true">
+    <Position X="28.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ShopMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::BattleItems" Collapsed="true">
+    <Position X="31" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAQAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\BattleItems.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterInventoryMenu" Collapsed="true">
+    <Position X="62.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CharacterInventoryMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Inventory" Collapsed="true">
+    <Position X="51.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAABAAACAAICMAAQAAAAAgAAAAAAAgIAEAA=</HashCode>
+      <FileName>Classes\Inventory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::InventoryMenu" Collapsed="true">
+    <Position X="60.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAE=</HashCode>
+      <FileName>Classes\InventoryMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ItemButton" Collapsed="true">
+    <Position X="83.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAiAiZkCUAEIACAQCAEAAAAABBwgIAEAIAEAAAEQ=</HashCode>
+      <FileName>Classes\ItemButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStats" Collapsed="true">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASQAAAAAAAAAAAAAAAEAIAAQAAAAAAAAAAAAAAAAEAI=</HashCode>
+      <FileName>Classes\CharacterStats.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStatsElementalProperties" Collapsed="true">
+    <Position X="33.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Classes\CharacterStatsElementalProperties.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStatsGeneralAbilities" Collapsed="true">
+    <Position X="35.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\CharacterStatsGeneralAbilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStatsMainStats" Collapsed="true">
+    <Position X="37.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAAIAIACAAAAAAAAQAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Classes\CharacterStatsMainStats.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStatsNaturalProperties" Collapsed="true">
+    <Position X="40" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Classes\CharacterStatsNaturalProperties.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStatsPage" Collapsed="true">
+    <Position X="37.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAgCICAgAAAAIAAAAAAAAAAAYABAAAAAAAA=</HashCode>
+      <FileName>Classes\CharacterStatsPage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::CharacterStatsStatusProperties" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Classes\CharacterStatsStatusProperties.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::QuestsMenu" Collapsed="true">
+    <Position X="53.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAACAAAAABQAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\QuestsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ClassSkillsMenu" Collapsed="true">
+    <Position X="65.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAgAAAAAAAAAABAAAAAAIAgAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Classes\ClassSkillsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MageSkillsMenu" Collapsed="true">
+    <Position X="67" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Classes\MageSkillsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SkillButton" Collapsed="true">
+    <Position X="76.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAQAQAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SkillButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SkillsMenu" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SkillsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::WarriorSkillsMenu" Collapsed="true">
+    <Position X="64.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Classes\WarriorSkillsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::LoadGameMenu" Collapsed="true">
+    <Position X="22" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\LoadGameMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::MapMenu" Collapsed="true">
+    <Position X="24.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQgACAQAAAAAAAAAAAIAgAAAAAAAABAAAgAAAgAAAA=</HashCode>
+      <FileName>Classes\MapMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::PauseMenu" Collapsed="true">
+    <Position X="44.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAAAAEAAAAAAQAAABgAAAAAAgAAAA=</HashCode>
+      <FileName>Classes\PauseMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::TeleportMenu" Collapsed="true">
+    <Position X="46.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAIACAIAAAAAAAAAAAEAAABAAAAABACAAAA=</HashCode>
+      <FileName>Classes\TeleportMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::ClassSelector" Collapsed="true">
+    <Position X="81.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAQAAAAEAAAICAAAqAAAMAAAiAAAAA=</HashCode>
+      <FileName>Classes\ClassSelector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::NewGameMenu" Collapsed="true">
+    <Position X="69.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCABAAAAAAAAAACAAAAAAABAEAAAAAEAAAACAgABA=</HashCode>
+      <FileName>Classes\NewGameMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::OptionsMenu" Collapsed="true">
+    <Position X="73.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAKBgAgAAAAACAAAAAEAEEAAAAQQAACAAAABQ=</HashCode>
+      <FileName>Classes\OptionsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::OptionsMenuAudio" Collapsed="true">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAQAAQAAUAACQAAAAAAAAABEAAAAAAAAAAQ=</HashCode>
+      <FileName>Classes\OptionsMenuAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::OptionsMenuGameplay" Collapsed="true">
+    <Position X="10.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAgAAAQCAAABQAAAABAAEAAggIAAAAAAAoAICEU=</HashCode>
+      <FileName>Classes\OptionsMenuGameplay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::OptionsMenuVideo" Collapsed="true">
+    <Position X="17.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAABQAAAAAUAAAAAAAAAAAAAAAAAAAQAAEIAQ=</HashCode>
+      <FileName>Classes\OptionsMenuVideo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Skill" Collapsed="true">
+    <Position X="1.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAgAEAAAAQwBAAEAAAAAAFAAkAAAAABAAAAAACAAA=</HashCode>
+      <FileName>Classes\Skill.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SkillActive" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAARAAAAEAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SkillActive.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SkillLevel" Collapsed="true">
+    <Position X="78" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgKADFQAAAAAEIAARAAEBBBBGiEARigBQAAgAgAAAAA=</HashCode>
+      <FileName>Classes\SkillLevel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::SkillNatural" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SkillNatural.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Ability" Collapsed="true">
+    <Position X="76.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAABQCAgBiBAKQASAIIAMAEBIiLgIgIQkgCJjIA=</HashCode>
+      <FileName>Classes\Ability.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Elemental" Collapsed="true">
+    <Position X="78" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAJARCAABABAAAAAAAAABAAAJAAARABAAEQAAAAAA=</HashCode>
+      <FileName>Classes\Elemental.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::Stats" Collapsed="true">
+    <Position X="81.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABYADQAAAAEAAACAABAQAAEBCgEEBAgBAAEgQAAABAA=</HashCode>
+      <FileName>Classes\Stats.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::StatsBasic" Collapsed="true">
+    <Position X="83.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CJgAMCANNAAuAisAgEiAABAKUBkNBUACZgFGABFCQIA=</HashCode>
+      <FileName>Classes\StatsBasic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPG::StatusNegative" Collapsed="true">
+    <Position X="76.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEhgQAAAAAAAAQABAAAABAAAgAAEBBAAAEAABAAAIAA=</HashCode>
+      <FileName>Classes\StatusNegative.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RPG::Animations" Collapsed="true">
+    <Position X="78" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Classes\GameRPG.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::AchievementID" Collapsed="true">
+    <Position X="76.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgA=</HashCode>
+      <FileName>Classes\Achievement.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::ItemIcon" Collapsed="true">
+    <Position X="76.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAEACAAAAQAAAAgEAAAQAAIAJAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::ItemClass" Collapsed="true">
+    <Position X="83.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAATAAAAABBAKCAABAAAAAAADAgACAAAAABI=</HashCode>
+      <FileName>Classes\Item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::ItemID" Collapsed="true">
+    <Position X="78" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMA4AAAAQAQAAgCCQABAACAEQAEAAAEAAAAAACAAAAA=</HashCode>
+      <FileName>Classes\Item.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::QuestState" Collapsed="true">
+    <Position X="78" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Classes\Quest.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::MainQuestID" Collapsed="true">
+    <Position X="81.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Classes\Quest.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::OptionalQuestID" Collapsed="true">
+    <Position X="76.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Classes\Quest.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::LanguageTextID" Collapsed="true">
+    <Position X="79.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/dq3tr+e/+418XVf+25Z/vC/6Lm27TJ3/8/zW2k27Nw=</HashCode>
+      <FileName>Classes\Database.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::EquipmentSlot" Collapsed="true">
+    <Position X="83.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAAAAABAAAAAAAAgAAAAAAARAAAAAAAAEAgA=</HashCode>
+      <FileName>Classes\Hero.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::HeroMovement" Collapsed="true">
+    <Position X="81.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQACAAAAAACAAAAAA=</HashCode>
+      <FileName>Classes\Hero.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::HeroClass" Collapsed="true">
+    <Position X="78" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAEAA=</HashCode>
+      <FileName>Classes\Hero.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::HeroMapChangeDirection" Collapsed="true">
+    <Position X="79.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Classes\Map.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::MapID" Collapsed="true">
+    <Position X="83.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MapDataState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::TeleportState" Collapsed="true">
+    <Position X="81.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\MapDataState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::DoorType" Collapsed="true">
+    <Position X="81.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAgAAAACAAAACAAAAAAA=</HashCode>
+      <FileName>Classes\Door.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::ChestType" Collapsed="true">
+    <Position X="79.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgAQAAAIAAA=</HashCode>
+      <FileName>Classes\BaseChest.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::SKillClass" Collapsed="true">
+    <Position X="79.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Skill.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="RPG::FileID" Collapsed="true">
+    <Position X="76.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAESDJCIEAsMICDEYgAFIABgDToCIAEbBVCA58Bc=</HashCode>
+      <FileName>Classes\Main.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

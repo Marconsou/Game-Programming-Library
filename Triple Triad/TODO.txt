@@ -1,0 +1,3 @@
+BUGS:
+Raramente fica sem carta.
+Fazer o cursor ficar na card certa pro computer antes de joga-la caso nao for a primeira.

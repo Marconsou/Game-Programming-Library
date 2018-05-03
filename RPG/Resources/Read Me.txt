@@ -1,0 +1,19 @@
+The software uses the following libraries:
+
+FreeImage:
+This software uses the FreeImage open source image library. See http://freeimage.sourceforge.net for details.
+FreeImage is used under the FIPL, version 1.0. 
+
+FreeType:
+Portions of this software are copyright © 2012 The FreeType Project (http://www.freetype.org).  All rights reserved.
+
+OGG Vorbis:
+OGG Vorvis © 2002, Xiph.Org Foundation (http://www.vorbis.com).
+
+OpenAL:
+http://connect.creativelabs.com/openal/default.aspx.
+
+Most resource files (image files and audio) belongs to other games or were found on the internet, to make this game possible. Therefore, keeping the copyright to their respective authors.
+The software is freeware and cost nothing.
+
+Any comments and suggestions, feel free to send me an email: marcelocontarinisouza@gmail.com

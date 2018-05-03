@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game Programming Library", "Game Programming Library\Game Programming Library.vcxproj", "{EDB34429-92C6-441F-B769-C40995F10C1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Application", "Application\Application.vcxproj", "{A145E346-C278-4775-8BC6-8E8CEE229BF8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDB34429-92C6-441F-B769-C40995F10C1F} = {EDB34429-92C6-441F-B769-C40995F10C1F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pathfind", "Pathfind\Pathfind.vcxproj", "{69289AF4-5E39-4199-BC18-7CD1E90A0475}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDB34429-92C6-441F-B769-C40995F10C1F} = {EDB34429-92C6-441F-B769-C40995F10C1F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPG", "RPG\RPG.vcxproj", "{9D0E52E8-C575-43DD-BA93-6F73976576C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDB34429-92C6-441F-B769-C40995F10C1F} = {EDB34429-92C6-441F-B769-C40995F10C1F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triple Triad", "Triple Triad\Triple Triad.vcxproj", "{40366317-968A-487A-898F-373F3BBEC6E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDB34429-92C6-441F-B769-C40995F10C1F} = {EDB34429-92C6-441F-B769-C40995F10C1F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Licenses", "Licenses", "{BD059BFF-05CD-42B4-B2CA-5EA03B9ACF0D}"
+	ProjectSection(SolutionItems) = preProject
+		Licenses\FreeImage License.txt = Licenses\FreeImage License.txt
+		Licenses\FreeType License.txt = Licenses\FreeType License.txt
+		Licenses\Ogg License.txt = Licenses\Ogg License.txt
+		Licenses\OpenAL License.txt = Licenses\OpenAL License.txt
+		Licenses\Vorbis License.txt = Licenses\Vorbis License.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Redistributable", "Redistributable", "{107F212F-9FE1-4D74-928E-5BAE6E09EF3B}"
+	ProjectSection(SolutionItems) = preProject
+		Redistributable\DirectX Setup.rar = Redistributable\DirectX Setup.rar
+		Redistributable\FreeImage.dll = Redistributable\FreeImage.dll
+		Redistributable\msvcp120.dll = Redistributable\msvcp120.dll
+		Redistributable\msvcr120.dll = Redistributable\msvcr120.dll
+		Redistributable\OpenAL32.dll = Redistributable\OpenAL32.dll
+		Redistributable\wrap_oal.dll = Redistributable\wrap_oal.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDB34429-92C6-441F-B769-C40995F10C1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDB34429-92C6-441F-B769-C40995F10C1F}.Debug|Win32.Build.0 = Debug|Win32
+		{EDB34429-92C6-441F-B769-C40995F10C1F}.Release|Win32.ActiveCfg = Release|Win32
+		{EDB34429-92C6-441F-B769-C40995F10C1F}.Release|Win32.Build.0 = Release|Win32
+		{A145E346-C278-4775-8BC6-8E8CEE229BF8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A145E346-C278-4775-8BC6-8E8CEE229BF8}.Debug|Win32.Build.0 = Debug|Win32
+		{A145E346-C278-4775-8BC6-8E8CEE229BF8}.Release|Win32.ActiveCfg = Release|Win32
+		{A145E346-C278-4775-8BC6-8E8CEE229BF8}.Release|Win32.Build.0 = Release|Win32
+		{69289AF4-5E39-4199-BC18-7CD1E90A0475}.Debug|Win32.ActiveCfg = Debug|Win32
+		{69289AF4-5E39-4199-BC18-7CD1E90A0475}.Debug|Win32.Build.0 = Debug|Win32
+		{69289AF4-5E39-4199-BC18-7CD1E90A0475}.Release|Win32.ActiveCfg = Release|Win32
+		{69289AF4-5E39-4199-BC18-7CD1E90A0475}.Release|Win32.Build.0 = Release|Win32
+		{9D0E52E8-C575-43DD-BA93-6F73976576C6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D0E52E8-C575-43DD-BA93-6F73976576C6}.Debug|Win32.Build.0 = Debug|Win32
+		{9D0E52E8-C575-43DD-BA93-6F73976576C6}.Release|Win32.ActiveCfg = Release|Win32
+		{9D0E52E8-C575-43DD-BA93-6F73976576C6}.Release|Win32.Build.0 = Release|Win32
+		{40366317-968A-487A-898F-373F3BBEC6E9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{40366317-968A-487A-898F-373F3BBEC6E9}.Debug|Win32.Build.0 = Debug|Win32
+		{40366317-968A-487A-898F-373F3BBEC6E9}.Release|Win32.ActiveCfg = Release|Win32
+		{40366317-968A-487A-898F-373F3BBEC6E9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6CA50D1-015D-4446-868B-4A334FBAD963}
+	EndGlobalSection
+EndGlobal

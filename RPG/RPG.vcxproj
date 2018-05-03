@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9D0E52E8-C575-43DD-BA93-6F73976576C6}</ProjectGuid>
+    <RootNamespace>RPG</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Common Properties.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Common Properties.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GPLd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>GPL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="Class Diagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Read Me.txt" />
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\Ability.cpp" />
+    <ClCompile Include="Classes\Achievement.cpp" />
+    <ClCompile Include="Classes\AchievementsMenu.cpp" />
+    <ClCompile Include="Classes\AnimatedMapObject.cpp" />
+    <ClCompile Include="Classes\BaseChest.cpp" />
+    <ClCompile Include="Classes\BattleItems.cpp" />
+    <ClCompile Include="Classes\Character.cpp" />
+    <ClCompile Include="Classes\CharacterInventoryMenu.cpp" />
+    <ClCompile Include="Classes\CharacterMenu.cpp" />
+    <ClCompile Include="Classes\CharacterStats.cpp" />
+    <ClCompile Include="Classes\CharacterStatsElementalProperties.cpp" />
+    <ClCompile Include="Classes\CharacterStatsGeneralAbilities.cpp" />
+    <ClCompile Include="Classes\CharacterStatsMainStats.cpp" />
+    <ClCompile Include="Classes\CharacterStatsNaturalProperties.cpp" />
+    <ClCompile Include="Classes\CharacterStatsPage.cpp" />
+    <ClCompile Include="Classes\CharacterStatsStatusProperties.cpp" />
+    <ClCompile Include="Classes\Chest.cpp" />
+    <ClCompile Include="Classes\ChestInventoryMenu.cpp" />
+    <ClCompile Include="Classes\ChestMenu.cpp" />
+    <ClCompile Include="Classes\ClassSelector.cpp" />
+    <ClCompile Include="Classes\ClassSkillsMenu.cpp" />
+    <ClCompile Include="Classes\Configuration.cpp" />
+    <ClCompile Include="Classes\Database.cpp" />
+    <ClCompile Include="Classes\Door.cpp" />
+    <ClCompile Include="Classes\Elemental.cpp" />
+    <ClCompile Include="Classes\ExternalItemsMenu.cpp" />
+    <ClCompile Include="Classes\FullCharacterOptionsMenu.cpp" />
+    <ClCompile Include="Classes\GameRPG.cpp" />
+    <ClCompile Include="Classes\GameTopInterface.cpp" />
+    <ClCompile Include="Classes\Gateway.cpp" />
+    <ClCompile Include="Classes\Hero.cpp" />
+    <ClCompile Include="Classes\InformationMenu.cpp" />
+    <ClCompile Include="Classes\Inventory.cpp" />
+    <ClCompile Include="Classes\InventoryMenu.cpp" />
+    <ClCompile Include="Classes\Item.cpp" />
+    <ClCompile Include="Classes\ItemButton.cpp" />
+    <ClCompile Include="Classes\LoadGameMenu.cpp" />
+    <ClCompile Include="Classes\Mage.cpp" />
+    <ClCompile Include="Classes\MageSkillsMenu.cpp" />
+    <ClCompile Include="Classes\Main.cpp" />
+    <ClCompile Include="Classes\MainMenu.cpp" />
+    <ClCompile Include="Classes\Map.cpp" />
+    <ClCompile Include="Classes\MapArea00.cpp" />
+    <ClCompile Include="Classes\MapArea01.cpp" />
+    <ClCompile Include="Classes\MapDataState.cpp" />
+    <ClCompile Include="Classes\MapManager.cpp" />
+    <ClCompile Include="Classes\MapMenu.cpp" />
+    <ClCompile Include="Classes\Menu.cpp" />
+    <ClCompile Include="Classes\NewGameMenu.cpp" />
+    <ClCompile Include="Classes\NPC.cpp" />
+    <ClCompile Include="Classes\OptionsMenu.cpp" />
+    <ClCompile Include="Classes\OptionsMenuAudio.cpp" />
+    <ClCompile Include="Classes\OptionsMenuGameplay.cpp" />
+    <ClCompile Include="Classes\OptionsMenuVideo.cpp" />
+    <ClCompile Include="Classes\PauseMenu.cpp" />
+    <ClCompile Include="Classes\PrivateChest.cpp" />
+    <ClCompile Include="Classes\Quest.cpp" />
+    <ClCompile Include="Classes\QuestsMenu.cpp" />
+    <ClCompile Include="Classes\SaveCrystal.cpp" />
+    <ClCompile Include="Classes\Shop.cpp" />
+    <ClCompile Include="Classes\ShopInventoryMenu.cpp" />
+    <ClCompile Include="Classes\ShopMenu.cpp" />
+    <ClCompile Include="Classes\SimpleCharacterOptionsMenu.cpp" />
+    <ClCompile Include="Classes\Skill.cpp" />
+    <ClCompile Include="Classes\SkillActive.cpp" />
+    <ClCompile Include="Classes\SkillButton.cpp" />
+    <ClCompile Include="Classes\SkillLevel.cpp" />
+    <ClCompile Include="Classes\SkillNatural.cpp" />
+    <ClCompile Include="Classes\SkillsMenu.cpp" />
+    <ClCompile Include="Classes\StaticMapObject.cpp" />
+    <ClCompile Include="Classes\Stats.cpp" />
+    <ClCompile Include="Classes\StatsBasic.cpp" />
+    <ClCompile Include="Classes\StatusNegative.cpp" />
+    <ClCompile Include="Classes\TeleportMenu.cpp" />
+    <ClCompile Include="Classes\Warrior.cpp" />
+    <ClCompile Include="Classes\WarriorSkillsMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Ability.h" />
+    <ClInclude Include="Classes\Achievement.h" />
+    <ClInclude Include="Classes\AchievementsMenu.h" />
+    <ClInclude Include="Classes\AnimatedMapObject.h" />
+    <ClInclude Include="Classes\BaseChest.h" />
+    <ClInclude Include="Classes\BattleItems.h" />
+    <ClInclude Include="Classes\Character.h" />
+    <ClInclude Include="Classes\CharacterInventoryMenu.h" />
+    <ClInclude Include="Classes\CharacterMenu.h" />
+    <ClInclude Include="Classes\CharacterStats.h" />
+    <ClInclude Include="Classes\CharacterStatsElementalProperties.h" />
+    <ClInclude Include="Classes\CharacterStatsGeneralAbilities.h" />
+    <ClInclude Include="Classes\CharacterStatsMainStats.h" />
+    <ClInclude Include="Classes\CharacterStatsNaturalProperties.h" />
+    <ClInclude Include="Classes\CharacterStatsPage.h" />
+    <ClInclude Include="Classes\CharacterStatsStatusProperties.h" />
+    <ClInclude Include="Classes\Chest.h" />
+    <ClInclude Include="Classes\ChestInventoryMenu.h" />
+    <ClInclude Include="Classes\ChestMenu.h" />
+    <ClInclude Include="Classes\ClassSelector.h" />
+    <ClInclude Include="Classes\ClassSkillsMenu.h" />
+    <ClInclude Include="Classes\Configuration.h" />
+    <ClInclude Include="Classes\Database.h" />
+    <ClInclude Include="Classes\Door.h" />
+    <ClInclude Include="Classes\Elemental.h" />
+    <ClInclude Include="Classes\ExternalItemsMenu.h" />
+    <ClInclude Include="Classes\FullCharacterOptionsMenu.h" />
+    <ClInclude Include="Classes\GameRPG.h" />
+    <ClInclude Include="Classes\GameTopInterface.h" />
+    <ClInclude Include="Classes\Gateway.h" />
+    <ClInclude Include="Classes\Hero.h" />
+    <ClInclude Include="Classes\InformationMenu.h" />
+    <ClInclude Include="Classes\Inventory.h" />
+    <ClInclude Include="Classes\InventoryMenu.h" />
+    <ClInclude Include="Classes\Item.h" />
+    <ClInclude Include="Classes\ItemButton.h" />
+    <ClInclude Include="Classes\LoadGameMenu.h" />
+    <ClInclude Include="Classes\Mage.h" />
+    <ClInclude Include="Classes\MageSkillsMenu.h" />
+    <ClInclude Include="Classes\Main.h" />
+    <ClInclude Include="Classes\MainMenu.h" />
+    <ClInclude Include="Classes\Map.h" />
+    <ClInclude Include="Classes\MapArea00.h" />
+    <ClInclude Include="Classes\MapArea01.h" />
+    <ClInclude Include="Classes\MapDataState.h" />
+    <ClInclude Include="Classes\MapManager.h" />
+    <ClInclude Include="Classes\MapMenu.h" />
+    <ClInclude Include="Classes\Menu.h" />
+    <ClInclude Include="Classes\NewGameMenu.h" />
+    <ClInclude Include="Classes\NPC.h" />
+    <ClInclude Include="Classes\OptionsMenu.h" />
+    <ClInclude Include="Classes\OptionsMenuAudio.h" />
+    <ClInclude Include="Classes\OptionsMenuGameplay.h" />
+    <ClInclude Include="Classes\OptionsMenuVideo.h" />
+    <ClInclude Include="Classes\PauseMenu.h" />
+    <ClInclude Include="Classes\PrivateChest.h" />
+    <ClInclude Include="Classes\Quest.h" />
+    <ClInclude Include="Classes\QuestsMenu.h" />
+    <ClInclude Include="Classes\SaveCrystal.h" />
+    <ClInclude Include="Classes\Shop.h" />
+    <ClInclude Include="Classes\ShopInventoryMenu.h" />
+    <ClInclude Include="Classes\ShopMenu.h" />
+    <ClInclude Include="Classes\SimpleCharacterOptionsMenu.h" />
+    <ClInclude Include="Classes\Skill.h" />
+    <ClInclude Include="Classes\SkillActive.h" />
+    <ClInclude Include="Classes\SkillButton.h" />
+    <ClInclude Include="Classes\SkillLevel.h" />
+    <ClInclude Include="Classes\SkillNatural.h" />
+    <ClInclude Include="Classes\SkillsMenu.h" />
+    <ClInclude Include="Classes\StaticMapObject.h" />
+    <ClInclude Include="Classes\Stats.h" />
+    <ClInclude Include="Classes\StatsBasic.h" />
+    <ClInclude Include="Classes\StatusNegative.h" />
+    <ClInclude Include="Classes\TeleportMenu.h" />
+    <ClInclude Include="Classes\Warrior.h" />
+    <ClInclude Include="Classes\WarriorSkillsMenu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\Application.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Icon\ApplicationResource.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

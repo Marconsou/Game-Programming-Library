@@ -1,0 +1,52 @@
+REMINDER C++11:
+public -> protected - > private
+Uniform Initialization {}
+enum -> enum class
+for -> for (auto& x: myvector)
+Delegating Constructor
+explicit Constructor
+std::tuple -> para algumas structs private
+class() = default;
+class(const class&) = delete;
+class& operator=(const class&) = delete;
+override (remover virtual da derivada) Se tem metodo virtual o destrutor deve ser virtual
+for (int i=0; i<g_n; i++) // I
+	for (int j=0; j<g_n; j++) // J
+		TestData[i][j] = 0.0f;
+
+RECENTS:
+Control >> Map (MapTileBase + MapObject).
+Button no cursor inverter cores quando o Mouse estiver por cima?
+Problema no TrackBar (atualizando o disable) talvez colocar o Update antes de tudo? + Colocar o codigo correto de cada controle no Update.
+Mudar os loops for para ranged for no Control + GetLastCharacterTyped no Show.
+Remover comentarios dos headers.
+Será que os signals estao executando métodos de objetos deletados?
+Criar uma classe RenderState quando necessario.
+No final lembrar de atualizar o DirectX Redist Package.
+
+KNOWN MAJOR BUGS:
+-
+
+KNOWN MINOR BUGS:
+Direct3D: Error FullScreen (Direct3D Debug Mode Assertion Failed) não é erro do HRESULT (W7 only, e somente no meu pc, pc da escola XP (antigo) 7 (atual) não deu!). Testar D3DCREATE_HARDWARE_VERTEXPROCESSING. Lost device due to uniqueness change Reset + Break on D3D9. Sleep(20) depois do Present "Resolve".
+Direct3D9: Texture Filter Half Texel.
+Window: Valor da borda / 3 não poderá ter sobra no valor float.
+Pathfind: Ao clicar num Node próximo de um caminho já calculado e movimentação já sendo feita, o objeto passa direto (Ex: 2 diagonais).
+OpenAL: Quando sai da aplicação parece que o buffer não fica completamente limpo e o som é tocado de maneira estranha (quase imperceptível).
+
+PERFORMANCE:
+Model: Com Translate adicionado, mudar todas as classes que usam Model para fazer o deslocamento mais fácil.
+Window: Trocar vector<Sprite> para um Model com TriangleStrip.
+
+FEATURES HIGH PRIORITY:
+TileSet: Fazer o mapa renderizar só parte dele de acordo com a câmera (Render to Texture?).
+
+FEATURES LOW PRIORITY:
+Video: Scissor?
+Video: Anti-Aliasing.
+TrackBar: Textura.
+ComboBox: Scroll.
+TextBox: Implementar em ordem -> deslocamento do cursor pelas setas + evitar texto sair do TextBox com passar limite, selecionar texto com Mouse, e se possível copy paste (Problema com os caracteres carregados pela Font).
+Mouse Cursor High Performance Hardware Acceleration on HD (Direct3D9 only?).
+Audio: 3D Sound X3DAudio + Listener.
+Future: Network + Lighting + Particle + Physic (Box2D) + AI + OpenGL3.3^ + Direct3D 11.

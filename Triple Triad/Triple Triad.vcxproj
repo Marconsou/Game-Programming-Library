@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\Board.cpp" />
+    <ClCompile Include="Classes\Card.cpp" />
+    <ClCompile Include="Classes\CardStats.cpp" />
+    <ClCompile Include="Classes\Minimax.cpp" />
+    <ClCompile Include="Classes\GameTopInterface.cpp" />
+    <ClCompile Include="Classes\GameTripleTriad.cpp" />
+    <ClCompile Include="Classes\Main.cpp" />
+    <ClCompile Include="Classes\MainMenu.cpp" />
+    <ClCompile Include="Classes\MatchGame.cpp" />
+    <ClCompile Include="Classes\Player.cpp" />
+    <ClCompile Include="Classes\RenderTargetCard.cpp" />
+    <ClCompile Include="Classes\Rule.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Read Me.txt" />
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\Board.h" />
+    <ClInclude Include="Classes\Card.h" />
+    <ClInclude Include="Classes\CardStats.h" />
+    <ClInclude Include="Classes\Minimax.h" />
+    <ClInclude Include="Classes\GameTopInterface.h" />
+    <ClInclude Include="Classes\GameTripleTriad.h" />
+    <ClInclude Include="Classes\Main.h" />
+    <ClInclude Include="Classes\MainMenu.h" />
+    <ClInclude Include="Classes\MatchGame.h" />
+    <ClInclude Include="Classes\Player.h" />
+    <ClInclude Include="Classes\RenderTargetCard.h" />
+    <ClInclude Include="Classes\Rule.h" />
+    <ClInclude Include="Resources\Icon\resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Icon\Application.ico" />
+    <Image Include="Resources\Texture\Background.png" />
+    <Image Include="Resources\Texture\Card Back Face.png" />
+    <Image Include="Resources\Texture\Cards Level 01.png" />
+    <Image Include="Resources\Texture\Cards Level 02.png" />
+    <Image Include="Resources\Texture\Cards Level 03.png" />
+    <Image Include="Resources\Texture\Cards Level 04.png" />
+    <Image Include="Resources\Texture\Cards Level 05.png" />
+    <Image Include="Resources\Texture\Cards Level 06.png" />
+    <Image Include="Resources\Texture\Cards Level 07.png" />
+    <Image Include="Resources\Texture\Cards Level 08.png" />
+    <Image Include="Resources\Texture\Cards Level 09.png" />
+    <Image Include="Resources\Texture\Cards Level 10.png" />
+    <Image Include="Resources\Texture\Interface.png" />
+    <Image Include="Resources\Texture\Squaresoft Logo.png" />
+    <Image Include="Resources\Texture\Window.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Icon\ApplicationResource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagram.cd" />
+    <None Include="Data.pkg" />
+    <None Include="Resources\Music\Main Theme.ogg" />
+    <None Include="Resources\Sound\Cursor Cancel.ogg" />
+    <None Include="Resources\Sound\Cursor Error.ogg" />
+    <None Include="Resources\Sound\Cursor Move.ogg" />
+    <None Include="Resources\Sound\Draw Card.ogg" />
+    <None Include="Resources\Sound\Random Player Turn.ogg" />
+    <None Include="Resources\Sound\Turn Card.ogg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Resources\Font\Algerian.ttf" />
+    <Font Include="Resources\Font\Segoe UI Bold.ttf" />
+    <Font Include="Resources\Font\Tahoma.ttf" />
+    <Font Include="Resources\Font\Times New Roman Bold Italic.ttf" />
+    <Font Include="Resources\Font\Times New Roman Bold.ttf" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{40366317-968A-487A-898F-373F3BBEC6E9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TripleTriad</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>
+    </CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>
+    </CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Common Properties.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Common Properties.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GPLd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>GPL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,300 @@
+Confirm
+Default
+Back
+Off
+On
+Slow
+Normal
+Fast
+New Game
+Load Game
+Options
+Exit
+Avatar
+Warrior
+Warriors is skilled in combat, and usually can make use of 
+some of the most powerful heavy armor and weaponry.
+Mage
+Mages can cast elemental magics, are powerful combatants who
+can employ a variety of different spells.
+Type a name here!
+*Invalid or short name!
+Gameplay
+Video
+Audio
+Apply
+Language:
+English
+Portuguese
+Text Speed:
+Normal
+Fast
+Instantly
+Default Window:
+Red & Black
+Custom Window:
+Left Top
+Right Top
+Left Bottom
+Right Bottom
+Resolution:
+Color Depth:
+Texture Filter:
+None
+Linear
+Fullscreen
+Vertical Synchronization
+Audio Engine:
+Music Volume:
+Sound Volume:
+Inventory
+Skills
+Quests
+Achievements
+Chest
+Private Chest
+Class:
+Level:
+Experience:
+Next Level:
+HP:
+MP:
+Physical Damage:
+Physical Resist:
+Magical Damage:
+Magical Resist:
+Hit:
+Evade:
+Speed:
+Movement:
+Strength:
+Intelligence:
+Agility:
+Attribute Points:
+Gold
+Elemental Properties
+Elemental Effect:
+Fire Damage:
+Ice Damage:
+Lightning Damage:
+Light Damage:
+Dark Damage:
+Fire Resist:
+Ice Resist:
+Lightning Resist:
+Light Resist:
+Dark Resist:
+Fire Absorb:
+Ice Absorb:
+Lightning Absorb:
+Light Absorb:
+Dark Absorb:
+Status Properties
+Status Effect:
+Wound Attack:
+Slowness Attack:
+Tiredness Attack:
+Headache Attack:
+Blindness Attack:
+Wound Defense:
+Slowness Defense:
+Tiredness Defense:
+Headache Defense:
+Blindness Defense:
+Natural Properties
+Critical Strike:
+Quick Strike:
+Counter Strike:
+HP Steal:
+MP Steal:
+HP Regen:
+MP Regen:
+General Abilities
+Analyzer
+Trainer
+Bounty
+Customer
+Coward
+Brave
+Runner
+Skin Slicer
+Bone Crusher
+Shell Driller
+Human Eater
+Beast Killer
+Undead Purifier
+Demon Hunter
+Dragon Slayer
+Previous page.
+Next page.
+Individual values for each hand.
+Character name.
+Character class with unique skills.
+Current character level, can unlock skills and equipments to use.
+Current experience points.
+Experience points needed for next level.
+Hit points that determines your life. 0 means you're dead!
+Magic points to use skills.
+Physical damage per attack.
+Physical damage reduction.
+Magical damage that will be added on some skills.
+Magical damage reduction.
+Chance to hit a physical attack.
+Chance to evade a physical attack.
+Speed in battle to act faster.
+Movement speed outside of battle.
+Increases physical damage, physical resist and HP.
+Increases magical damage, magical resist and MP.
+Increases hit, evade and speed.
+Earns points per level to distribute between primary attributes.
+Increase strength per cost of an attribute point.
+Increase intelligence per cost of an attribute point.
+Increase agility per cost of an attribute point.
+When activated, automatically adds elemental damage on attack and on some skills.
+Elemental damage added on attack and on some skills.
+Elemental effect required!
+Reduces elemental damage.
+Absorb elemental damage, activated when fully resist.
+When activated, automatically adds status change on attack and on some skills.
+Status change added on attack and on some skills.
+Status effect required!
+Chance to avoid status change.
+Wound: Loses HP with time.
+Slowness: Decreases speed.
+Tiredness: Loses all action time, after an action in battle.
+Headache: Reduces chance of using skills.
+Blindness: Decreases the accuracy of physical attacks.
+Chance to deal a critical strike, when using physical attacks.
+Chance to deal an additional physical attack, when using physical attacks once.
+Chance to deal a physical attack, while being attacked by physical attacks.
+Steals HP from physical damage dealt.
+Steals MP from physical damage dealt.
+Recovers HP gradually.
+Recovers MP gradually.
+Can see enemy action bar and identify items before end of battle.
+Receives more experience from enemies.
+Receives more gold from enemies.
+Earns discounts from items being sold on shops.
+Decreases chance of encountering enemies.
+Increases chance of encountering enemies.
+Increases movement speed.
+Deals full damage on enemies with armor against cutting.
+Deals full damage on enemies with armor against smashing.
+Deals full damage on enemies with armor against piercing.
+Increases final damage against human type enemies.
+Increases final damage against beast type enemies.
+Increases final damage against undead type enemies.
+Increases final damage against demon type enemies.
+Increases final damage against dragon type enemies.
+Equip a weapon or shield.
+Equip a helm.
+Equip an armor.
+Equip gloves.
+Equip boots.
+Equip an accessory.
+Discard an item.
+Battle Items:
+Skill Points:
+Earns points per level to increase skill level.
+Learn:
+Type:
+Natural
+Active
+New Skill
+Lv:
+Current Skill Level:
+Next Skill Level:
+Melee weapon only!
+Learned!
+Level up!
+Cut Mastery
+Increases physical damage, critical strike, and others stats using cut based weapons.
+Main quest, click for more details!
+Optional quest, click for more details!
+Quest has been completed!
+Quest started: 
+Quest completed: 
+MAIN QUEST NAME TEST
+Main Quest Description Test.
+OPTIONAL QUEST NAME TEST
+Bring {0}/{1} test itens (OPTIONAL TEST).
+Achievement, click for more details!
+Achievement Unlocked:
+Skillful
+Master a skill reaching the maximum level.
+Usable
+Quest Item
+Dagger
+Sword
+Axe
+Mace
+Staff
+Spear
+Bow
+Shield
+Helm
+Armor
+Gloves
+Boots
+Accessory
+Required Level:
+Weight:
+One-Hand
+Two-Hands
+HP Max:
+MP Max:
+Cut
+Smash
+Pierce
+[Right click to use]
+[SHIFT + click to sell]
+[Cannot be sold or placed in any public place]
+Physical Recovery Level 1
+Physical Recovery Level 2
+Physical Recovery Level 3
+Physical Recovery Level 4
+Physical Recovery Level 5
+Magical Recovery Level 1
+Magical Recovery Level 2
+Magical Recovery Level 3
+Magical Recovery Level 4
+Magical Recovery Level 5
+Recovered!
+Recovers
+Letter
+Contains some information.
+Short Sword
+Broad Sword
+Long Sword
+Buckler
+Cap
+Cloth
+Leather Gloves
+Leather Boots
+Common Ring
+Item Shop
+Weapon Shop
+Armor Shop
+Talk
+Save Crystal
+Save
+Teleport
+Teleport activated!
+Destination:
+Open
+Go to
+Open the character menu.
+Pause the game, access the settings menu or exit the current game.
+Resume
+Nowhere
+Item Shop
+Name NPC 0
+Start quest: 
+Complete quest: 
+?
+Yes
+No
+Vendor
+Want to see my items for sale?
+Yes (Buy/Sell)
+No (Exit)

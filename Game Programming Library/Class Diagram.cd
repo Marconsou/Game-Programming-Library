@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="GPL::Game" Collapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AaQAEAAAAQAAESAAAAACAAARAAyAABEAQAIACEAAACA=</HashCode>
+      <FileName>Classes\Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Node" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEgAYAAAAAAAIAAAAJgAAIYABgGAAIIAA=</HashCode>
+      <FileName>Classes\Node.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Pathfind" Collapsed="true">
+    <Position X="37" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QhAAAAEAYQwIChIgAKwCABAAEAjCRKkBCAAsAABBAAg=</HashCode>
+      <FileName>Classes\Pathfind.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::GameState" Collapsed="true">
+    <Position X="13.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQhTAiAQAAkQJAAAACgQBAAAAgEQAAIAEAhJAAAIAA=</HashCode>
+      <FileName>Classes\GameState.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Point2D&lt;Type&gt;" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAYAAAAAAAAAAAAAAAAAYABgAAAAAAA=</HashCode>
+      <FileName>Classes\Point2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Point3D&lt;Type&gt;" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAABYAAAAAAAAAAAAAAAAAYAFgAQAAAAA=</HashCode>
+      <FileName>Classes\Point3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Rect&lt;Type&gt;" Collapsed="true">
+    <Position X="35.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAASAAIAIIAAAACAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Color" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ERgegE1AAAAgApAAABpAAQACBABAAAAAAAIQgDAAAiE=</HashCode>
+      <FileName>Classes\Color.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Quantity" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgKABABAAAAACiAAAAAAABAAgAAIEAAAAEAIgAAAAAA=</HashCode>
+      <FileName>Classes\Quantity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::AnimationFrame" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAGgBAAAAAAAYAAAggABCCADQEAkgA4ChoAAAAYAA=</HashCode>
+      <FileName>Classes\AnimationFrame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ColorChanger" Collapsed="true">
+    <Position X="33.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAAAAAIAAAAAAAAACEAAACAAAAAAgwAABAAAI=</HashCode>
+      <FileName>Classes\ColorChanger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ScreenEffect" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADAAAAAAAAAAAAAAgAAAAQABAAEAAAAAAAyECAIAAA=</HashCode>
+      <FileName>Classes\ScreenEffect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TextDynamic" Collapsed="true">
+    <Position X="11.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAEAAAAAAAAAAggAKAAAAAAEAgAA4AhgAAHAAAA=</HashCode>
+      <FileName>Classes\TextDynamic.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TextDynamicWave" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAACAAAAACAIAABAAAAAgAAEAwQAgAAAEBFAAAA=</HashCode>
+      <FileName>Classes\TextDynamicWave.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TextDynamicZoom" Collapsed="true">
+    <Position X="12.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAACAgAAEAgAAgABAAAlAAAA=</HashCode>
+      <FileName>Classes\TextDynamicZoom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Application" Collapsed="true">
+    <Position X="10.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEABAAAACAAAAEQAAAKAAGAEAABAAgABBAIQE=</HashCode>
+      <FileName>Classes\Application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Audio" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAARDAAAAQkIBRICAAEKVMEMkARkMQkihIAgiAqK6DA=</HashCode>
+      <FileName>Classes\Audio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Music" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIEAAAgQIEACECBAAEBIgIAACASUIAAoAAAAABA=</HashCode>
+      <FileName>Classes\Music.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Sound" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAEAIAAAAAAAABAAgAACAAAA=</HashCode>
+      <FileName>Classes\Sound.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Source" Collapsed="true">
+    <Position X="6.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAgAAAAAAAAAACAgAAAAAAACAIAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Source.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::OGGFile" Collapsed="true">
+    <Position X="33.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAEAQAgEIAACRAAAAAAAACAAEBCAAACgAAKAAAQ=</HashCode>
+      <FileName>Classes\OGGFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::AudioOpenAL" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAQAAAQACAAAAAAAAAACAAAAgBAQAAAACYBA=</HashCode>
+      <FileName>Classes\AudioOpenAL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::BufferOpenAL" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAEAAAAEABAACAAAAAAAAABAAABgAAAAAAA=</HashCode>
+      <FileName>Classes\BufferOpenAL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::MusicOpenALOGG" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAAAAAgAAAACAAAAAAQIAAAACACUIAEAQAAAAAA=</HashCode>
+      <FileName>Classes\MusicOpenALOGG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::OpenAL" Collapsed="true">
+    <Position X="35.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EQAAAEAAAAAAAAAAAAAAAAAAAAABAAAAIAEgAAACAAA=</HashCode>
+      <FileName>Classes\OpenAL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SoundOpenAL" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAQAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SoundOpenAL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SoundOpenALOGG" Collapsed="true">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SoundOpenALOGG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SourceOpenAL" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAiBAAAAAAAAAIIAAAAAAAEAAQAGACEoAAggCgAAAA=</HashCode>
+      <FileName>Classes\SourceOpenAL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::AudioXAudio" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEAAAQAABAACAAAABAAAAACAAAAgBAAAABAiYAA=</HashCode>
+      <FileName>Classes\AudioXAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::BufferXAudio" Collapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAAAAAAQAAAAAAAAAAAAAAAAAAAAgAAIAAAA=</HashCode>
+      <FileName>Classes\BufferXAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::MusicXAudioOGG" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAgAgAgAACAAAAAAQIEAAACACQIAAAAABQAAA=</HashCode>
+      <FileName>Classes\MusicXAudioOGG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SoundXAudio" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Classes\SoundXAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SoundXAudioOGG" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SoundXAudioOGG.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SourceVoiceXAudio" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQCAAAAEIAAAAAAAAEAAACACAIAQQAAAAgEA=</HashCode>
+      <FileName>Classes\SourceVoiceXAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::XAudio" Collapsed="true">
+    <Position X="37" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAgAQAAAAABAAAAAAAAAAAAAAgAAAkAEACIAA=</HashCode>
+      <FileName>Classes\XAudio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Bar" Collapsed="true">
+    <Position X="21.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQhAAAgAAiAAAAAAAAAAIAAAAAEAEgIEQAgACAAIAI=</HashCode>
+      <FileName>Classes\Bar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Button" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkAIAAICAAgAIAABAAAAADADABAEAAAIIAgAAaQCACA=</HashCode>
+      <FileName>Classes\Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::CheckBox" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>A0AAAAEAIIAIAAAACAACAAAAAAQEAAAIIwQAAAAAIAA=</HashCode>
+      <FileName>Classes\CheckBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ComboBox" Collapsed="true">
+    <Position X="12.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkIAAiAAAAjUAAMAQAACEDBQAAAEBAEAAgFAhAFAIAA=</HashCode>
+      <FileName>Classes\ComboBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Video" Collapsed="true">
+    <Position X="10.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGBEAQKCDRgIAiEhAAXBIQEDAjgBIQAEIxAiFTASgIk=</HashCode>
+      <FileName>Classes\Video.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Timer" Collapsed="true">
+    <Position X="37" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAggIAAAAAAAQACAAIAiAAIQAAAAAAAAAIAggBAEIAA=</HashCode>
+      <FileName>Classes\Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::DialogueBox" Collapsed="true">
+    <Position X="17.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gkSFAABAYQBAH2sDgEgAgABBIDYEAiRYICCQQBjCEAQ=</HashCode>
+      <FileName>Classes\DialogueBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Label" Collapsed="true">
+    <Position X="19.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAIIAAAgAAAABAIACAAAAAAgEAgAIAAAAQCAABCA=</HashCode>
+      <FileName>Classes\Label.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::MessageLog" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMFAAAEAAAAgAAAECAAIAAQAAAAAoAAYAAABABAAAA=</HashCode>
+      <FileName>Classes\MessageLog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::PictureBox" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAIAAAgBAAAAEAAgAAAAABAEAgAAAAAAACAAACA=</HashCode>
+      <FileName>Classes\PictureBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::RadioButton" Collapsed="true">
+    <Position X="10.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAAIEAIIgIAAAACAACAAAQAAQEAAAIIgQAAgAAICA=</HashCode>
+      <FileName>Classes\RadioButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Signal&lt;Return, ...Args&gt;" Collapsed="true">
+    <Position X="0.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAJAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Classes\Signal.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SignalBase" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAACAAJAAAAAwAAAAAAAAgAAQAAAA=</HashCode>
+      <FileName>Classes\SignalBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TextBox" Collapsed="true">
+    <Position X="15" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkAAQAAAAALABAFAAMICBBBAIAAEAAAIAIIAAAAAIAQ=</HashCode>
+      <FileName>Classes\TextBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ToolTip" Collapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQAAgAAABIAAIAAgCoAgQAAAAAgAEYAhAACBAIAA=</HashCode>
+      <FileName>Classes\ToolTip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TrackBar" Collapsed="true">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkABCAAAIABABgEAAAICAACIAALEACAAIAAAACECIQI=</HashCode>
+      <FileName>Classes\TrackBar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Window" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiMIGABAAACggAABEkAIABAAAAAUAgAIAAAADkiCIGA=</HashCode>
+      <FileName>Classes\Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Model" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iRCAQQwaAgAkAAAACBVwEAgDAGCcAkSaIQglAAAnhAA=</HashCode>
+      <FileName>Classes\Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Sprite" Collapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAACAgiQAAEKEaKgIAKYIBgACYEgkCe4ChhAgApEEA=</HashCode>
+      <FileName>Classes\Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ResourceFile" Collapsed="true">
+    <Position X="37" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAgAEAAAAAgAAAAAAEAAUA=</HashCode>
+      <FileName>Classes\ResourceFile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ResourceManager&lt;Type&gt;" Collapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAEAAAAAAAAAAAAAAgCARAAAA=</HashCode>
+      <FileName>Classes\ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Input" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QGCAAgA5ghNAiAAAAESQAENCUAsgBACAEAAgLAAIkYE=</HashCode>
+      <FileName>Classes\Input.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::MapTileBase" Collapsed="true">
+    <Position X="13.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQIQAAAAgAAAQhAMQAAYEACAAMEFEAQAAgBAAAAABQ=</HashCode>
+      <FileName>Classes\MapTileBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::MapObject" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEUEAAEQYwYGFQawAiQjCgQGAEhnElks5khSHGggUgE=</HashCode>
+      <FileName>Classes\MapObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TileSet" Collapsed="true">
+    <Position X="35.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAgAAQAAAQAAAAAAAEAAAgAEgEAIgAAhECAIAAA=</HashCode>
+      <FileName>Classes\TileSet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Interval" Collapsed="true">
+    <Position X="35.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAACAAAAAIAAAACAAAAAACAAIAAgAAAAAAQ=</HashCode>
+      <FileName>Classes\Interval.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Convert" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Convert.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Directory" Collapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Directory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Format" Collapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Format.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Random" Collapsed="true">
+    <Position X="33.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Random.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Font" Collapsed="true">
+    <Position X="13.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACASAIIQEAAIBHCAAEAAACEBEACQACQgBAAGCQM=</HashCode>
+      <FileName>Classes\Font.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::RenderTarget" Collapsed="true">
+    <Position X="6.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgCAAAACAAAAAAQAYAAAAEBCAAAAAgACAAAgAEBAAAA=</HashCode>
+      <FileName>Classes\RenderTarget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Texture" Collapsed="true">
+    <Position X="3.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAEEAAAAAAAgAQAQAAIAABAAAAAAAAAAAIgAEAAAAA=</HashCode>
+      <FileName>Classes\Texture.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::FontDirect3D9" Collapsed="true">
+    <Position X="13.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Classes\FontDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::IndexBufferDirect3D9" Collapsed="true">
+    <Position X="33.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQCQAACAAAAAAACAQAAAFAEBAAABAACAACAgAAAAQAI=</HashCode>
+      <FileName>Classes\IndexBufferDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::PixelShaderDirect3D9" Collapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAACAAAEAAAAAAQAAAAAAAAAQAAAAAAAgAACAAAA=</HashCode>
+      <FileName>Classes\PixelShaderDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::RenderTargetDirect3D9" Collapsed="true">
+    <Position X="6.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEQAAAAAAAQAAAAAAAAAAAAAAAAAAABAAAE=</HashCode>
+      <FileName>Classes\RenderTargetDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::SurfaceDirect3D9" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQEAAAEAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAM=</HashCode>
+      <FileName>Classes\SurfaceDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::TextureDirect3D9" Collapsed="true">
+    <Position X="3.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEQBAIAIAACAAAABAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\TextureDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::VertexBufferDirect3D9" Collapsed="true">
+    <Position X="28.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAAQAAAAgAAAARCAAwAAAAAABAAABAAAQQggAABAAQA=</HashCode>
+      <FileName>Classes\VertexBufferDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::VertexDeclarationDirect3D9" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAIAAAAAAAAAEAgAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\VertexDeclarationDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::VertexShaderDirect3D9" Collapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAEAAAABAAAIAAEAAAAAAAAABAAAAAAgAQAAAAA=</HashCode>
+      <FileName>Classes\VertexShaderDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::VideoDirect3D9" Collapsed="true">
+    <Position X="10.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGCEAQCiDEiB4AIAQlAmwDQAgmgIgQBEEBQAEpASIBg=</HashCode>
+      <FileName>Classes\VideoDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Mouse" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAACAwAAABAAAAQAAgAAAAAAgAAAIAYBBgBAIAQIA=</HashCode>
+      <FileName>Classes\Mouse.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::InputDevice&lt;Type&gt;" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAIACAAAEEAEAyAAKABAAAAAANiAAAkBAAAAog=</HashCode>
+      <FileName>Classes\InputDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::MouseRawInput" Collapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAwAAAAAAAAkCAgAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Classes\MouseRawInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::InputWin32" Collapsed="true">
+    <Position X="0.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAAgDAAAgAAIAAYAAAAAAEAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Classes\InputWin32.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Keyboard" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiAACAABAAAAAACAAAAAAAAAgAAAAABAAAgIAAAAAA=</HashCode>
+      <FileName>Classes\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::KeyboardRawInput" Collapsed="true">
+    <Position X="3" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAACEAAAAAAAgAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>Classes\KeyboardRawInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Joystick" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QMCAASAAAABAgAAAAAESAMACQAcABAEgEgAAAAgIAQA=</HashCode>
+      <FileName>Classes\Joystick.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::JoystickDirectInput" Collapsed="true">
+    <Position X="5.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQgAAACAQIAACAAAAAAABBAAAAAA=</HashCode>
+      <FileName>Classes\JoystickDirectInput.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Log" Collapsed="true">
+    <Position X="37" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAABAAAAgAAAAEAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Factory&lt;Key, Base&gt;" Collapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAIAAAABAAAAAAAgAAAAAgAAAAAgA=</HashCode>
+      <FileName>Classes\Factory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::ApplicationWin32" Collapsed="true">
+    <Position X="10.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFAAAQMgAEBEECAIAMAQAAACAAEAAQABAQAwJAAgQA=</HashCode>
+      <FileName>Classes\ApplicationWin32.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Control" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkQDYIQkACooloAQGYyx5nMsMEqmI6EtYMhkCnEgEMQ=</HashCode>
+      <FileName>Classes\Control.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Direct3D9" Collapsed="true">
+    <Position X="37" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAAAAIiABQAlAgAEAQAACABBAEAggNAAQkCAACACA=</HashCode>
+      <FileName>Classes\Direct3D9.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::View" Collapsed="true">
+    <Position X="35.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAEAAAABABQAAACAAAFAAAAIAAgAAABBAA=</HashCode>
+      <FileName>Classes\View.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::VideoMode" Collapsed="true">
+    <Position X="33.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAUAAQAQAQAAQBEAAAAAAABAAABAEAAAAQ=</HashCode>
+      <FileName>Classes\VideoMode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPL::Text" Collapsed="true">
+    <Position X="33.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABIAAAEgCAAAgAYBAMACJABgCA6EIkCOYApBCgBpEAA=</HashCode>
+      <FileName>Classes\Text.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GPL::AudioEngine" Collapsed="true">
+    <Position X="28.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAAA=</HashCode>
+      <FileName>Classes\Game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::Movement" Collapsed="true">
+    <Position X="28.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAEAAAI=</HashCode>
+      <FileName>Classes\Pathfind.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::GameStateAction" Collapsed="true">
+    <Position X="31.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\GameState.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::ScreenEffectFadeMode" Collapsed="true">
+    <Position X="35.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Classes\ScreenEffect.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::MessageLogOrientation" Collapsed="true">
+    <Position X="37" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Classes\MessageLog.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::TextBoxInputType" Collapsed="true">
+    <Position X="37" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Classes\TextBox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::ToolTipTextAlign" Collapsed="true">
+    <Position X="28.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAIAAA=</HashCode>
+      <FileName>Classes\ToolTip.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::TrackBarOrientation" Collapsed="true">
+    <Position X="30" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\TrackBar.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::PixelShaderConstantRegister" Collapsed="true">
+    <Position X="30" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAIAAABAAAAAAgAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Classes\PixelShaderDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::VertexShaderConstantRegister" Collapsed="true">
+    <Position X="31.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\VertexShaderDirect3D9.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::MouseButton" Collapsed="true">
+    <Position X="26.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAABAAAAAAABAAAAAAAAAAAAAACACQAAAAABA=</HashCode>
+      <FileName>Classes\Mouse.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::JoystickButton" Collapsed="true">
+    <Position X="33.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAggBEAAAAAwAAAAAAAIDACAAAAAJgBAAAAANA=</HashCode>
+      <FileName>Classes\Joystick.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::VideoEngine" Collapsed="true">
+    <Position X="33.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::KeyboardKey" Collapsed="true">
+    <Position X="35.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIKAmIQAZAgQEQYgAGD4V8nAiX+BwwCCACAvv//Z1M=</HashCode>
+      <FileName>Classes\Keyboard.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::TextureFilter" Collapsed="true">
+    <Position X="26.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Video.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::AspectRatio" Collapsed="true">
+    <Position X="26.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAACAIAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\Video.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::PrimitiveType" Collapsed="true">
+    <Position X="31.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Classes\Model.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::Projection" Collapsed="true">
+    <Position X="33.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Classes\Model.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GPL::BitsPerPixel" Collapsed="true">
+    <Position X="30" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\VideoMode.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

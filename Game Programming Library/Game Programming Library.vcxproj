@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EDB34429-92C6-441F-B769-C40995F10C1F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>GameProgrammingLibrary</RootNamespace>
+    <SccProjectName>
+    </SccProjectName>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Common Properties.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\Common Properties.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>GPLd</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>GPL</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;GAMEPROGRAMMINGLIBRARY_EXPORTS;D3D_DEBUG_INFO;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;FreeImage.lib;freetypeMT_D.lib;libogg_static.lib;libvorbis_static.lib;libvorbisfile_static.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Output\$(Configuration)\$(TargetFileName)" "$(SolutionDir)Redistributable\"</Command>
+    </PostBuildEvent>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;GAMEPROGRAMMINGLIBRARY_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>d3d9.lib;d3dcompiler.lib;dinput8.lib;dxguid.lib;FreeImage.lib;freetypeMT.lib;libogg_static.lib;libvorbis_static.lib;libvorbisfile_static.lib;OpenAL32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy "$(SolutionDir)Output\$(Configuration)\$(TargetFileName)" "$(SolutionDir)Redistributable\"</Command>
+    </PostBuildEvent>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\AnimationFrame.h" />
+    <ClInclude Include="Classes\Application.h" />
+    <ClInclude Include="Classes\ApplicationWin32.h" />
+    <ClInclude Include="Classes\Audio.h" />
+    <ClInclude Include="Classes\AudioOpenAL.h" />
+    <ClInclude Include="Classes\AudioXAudio.h" />
+    <ClInclude Include="Classes\Bar.h" />
+    <ClInclude Include="Classes\BufferOpenAL.h" />
+    <ClInclude Include="Classes\BufferXAudio.h" />
+    <ClInclude Include="Classes\Button.h" />
+    <ClInclude Include="Classes\CheckBox.h" />
+    <ClInclude Include="Classes\Color.h" />
+    <ClInclude Include="Classes\ColorChanger.h" />
+    <ClInclude Include="Classes\ComboBox.h" />
+    <ClInclude Include="Classes\Control.h" />
+    <ClInclude Include="Classes\Convert.h" />
+    <ClInclude Include="Classes\DialogueBox.h" />
+    <ClInclude Include="Classes\Direct3D9.h" />
+    <ClInclude Include="Classes\Directory.h" />
+    <ClInclude Include="Classes\Factory.h" />
+    <ClInclude Include="Classes\Font.h" />
+    <ClInclude Include="Classes\FontDirect3D9.h" />
+    <ClInclude Include="Classes\Format.h" />
+    <ClInclude Include="Classes\Game.h" />
+    <ClInclude Include="Classes\GameState.h" />
+    <ClInclude Include="Classes\IndexBufferDirect3D9.h" />
+    <ClInclude Include="Classes\Input.h" />
+    <ClInclude Include="Classes\InputDevice.h" />
+    <ClInclude Include="Classes\InputWin32.h" />
+    <ClInclude Include="Classes\Interval.h" />
+    <ClInclude Include="Classes\Joystick.h" />
+    <ClInclude Include="Classes\JoystickDirectInput.h" />
+    <ClInclude Include="Classes\Keyboard.h" />
+    <ClInclude Include="Classes\KeyboardRawInput.h" />
+    <ClInclude Include="Classes\Label.h" />
+    <ClInclude Include="Classes\Log.h" />
+    <ClInclude Include="Classes\MapTileBase.h" />
+    <ClInclude Include="Classes\MapObject.h" />
+    <ClInclude Include="Classes\MessageLog.h" />
+    <ClInclude Include="Classes\Model.h" />
+    <ClInclude Include="Classes\Mouse.h" />
+    <ClInclude Include="Classes\MouseRawInput.h" />
+    <ClInclude Include="Classes\Music.h" />
+    <ClInclude Include="Classes\MusicOpenALOGG.h" />
+    <ClInclude Include="Classes\MusicXAudioOGG.h" />
+    <ClInclude Include="Classes\Node.h" />
+    <ClInclude Include="Classes\OGGFile.h" />
+    <ClInclude Include="Classes\OpenAL.h" />
+    <ClInclude Include="Classes\Pathfind.h" />
+    <ClInclude Include="Classes\PictureBox.h" />
+    <ClInclude Include="Classes\PixelShaderDirect3D9.h" />
+    <ClInclude Include="Classes\Point2D.h" />
+    <ClInclude Include="Classes\Point3D.h" />
+    <ClInclude Include="Classes\Quantity.h" />
+    <ClInclude Include="Classes\RadioButton.h" />
+    <ClInclude Include="Classes\Random.h" />
+    <ClInclude Include="Classes\Rect.h" />
+    <ClInclude Include="Classes\RenderTarget.h" />
+    <ClInclude Include="Classes\RenderTargetDirect3D9.h" />
+    <ClInclude Include="Classes\ResourceFile.h" />
+    <ClInclude Include="Classes\ResourceManager.h" />
+    <ClInclude Include="Classes\ScreenEffect.h" />
+    <ClInclude Include="Classes\Signal.h" />
+    <ClInclude Include="Classes\SignalBase.h" />
+    <ClInclude Include="Classes\Sound.h" />
+    <ClInclude Include="Classes\SoundOpenAL.h" />
+    <ClInclude Include="Classes\SoundOpenALOGG.h" />
+    <ClInclude Include="Classes\SoundXAudio.h" />
+    <ClInclude Include="Classes\SoundXAudioOGG.h" />
+    <ClInclude Include="Classes\Source.h" />
+    <ClInclude Include="Classes\SourceOpenAL.h" />
+    <ClInclude Include="Classes\SourceVoiceXAudio.h" />
+    <ClInclude Include="Classes\Sprite.h" />
+    <ClInclude Include="Classes\SurfaceDirect3D9.h" />
+    <ClInclude Include="Classes\Text.h" />
+    <ClInclude Include="Classes\TextBox.h" />
+    <ClInclude Include="Classes\TextDynamic.h" />
+    <ClInclude Include="Classes\TextDynamicWave.h" />
+    <ClInclude Include="Classes\TextDynamicZoom.h" />
+    <ClInclude Include="Classes\Texture.h" />
+    <ClInclude Include="Classes\TextureDirect3D9.h" />
+    <ClInclude Include="Classes\TileSet.h" />
+    <ClInclude Include="Classes\Timer.h" />
+    <ClInclude Include="Classes\ToolTip.h" />
+    <ClInclude Include="Classes\TrackBar.h" />
+    <ClInclude Include="Classes\VertexBufferDirect3D9.h" />
+    <ClInclude Include="Classes\VertexDeclarationDirect3D9.h" />
+    <ClInclude Include="Classes\VertexShaderDirect3D9.h" />
+    <ClInclude Include="Classes\Video.h" />
+    <ClInclude Include="Classes\VideoDirect3D9.h" />
+    <ClInclude Include="Classes\VideoMode.h" />
+    <ClInclude Include="Classes\View.h" />
+    <ClInclude Include="Classes\Window.h" />
+    <ClInclude Include="Classes\XAudio.h" />
+    <ClInclude Include="Resources\BuildDLL.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\AnimationFrame.cpp" />
+    <ClCompile Include="Classes\Application.cpp" />
+    <ClCompile Include="Classes\ApplicationWin32.cpp" />
+    <ClCompile Include="Classes\Audio.cpp" />
+    <ClCompile Include="Classes\AudioOpenAL.cpp" />
+    <ClCompile Include="Classes\AudioXAudio.cpp" />
+    <ClCompile Include="Classes\Bar.cpp" />
+    <ClCompile Include="Classes\BufferOpenAL.cpp" />
+    <ClCompile Include="Classes\BufferXAudio.cpp" />
+    <ClCompile Include="Classes\Button.cpp" />
+    <ClCompile Include="Classes\CheckBox.cpp" />
+    <ClCompile Include="Classes\Color.cpp" />
+    <ClCompile Include="Classes\ColorChanger.cpp" />
+    <ClCompile Include="Classes\ComboBox.cpp" />
+    <ClCompile Include="Classes\Control.cpp" />
+    <ClCompile Include="Classes\Convert.cpp" />
+    <ClCompile Include="Classes\DialogueBox.cpp" />
+    <ClCompile Include="Classes\Direct3D9.cpp" />
+    <ClCompile Include="Classes\Directory.cpp" />
+    <ClCompile Include="Classes\Font.cpp" />
+    <ClCompile Include="Classes\FontDirect3D9.cpp" />
+    <ClCompile Include="Classes\Format.cpp" />
+    <ClCompile Include="Classes\Game.cpp" />
+    <ClCompile Include="Classes\GameState.cpp" />
+    <ClCompile Include="Classes\IndexBufferDirect3D9.cpp" />
+    <ClCompile Include="Classes\Input.cpp" />
+    <ClCompile Include="Classes\InputWin32.cpp" />
+    <ClCompile Include="Classes\Interval.cpp" />
+    <ClCompile Include="Classes\Joystick.cpp" />
+    <ClCompile Include="Classes\JoystickDirectInput.cpp" />
+    <ClCompile Include="Classes\Keyboard.cpp" />
+    <ClCompile Include="Classes\KeyboardRawInput.cpp" />
+    <ClCompile Include="Classes\Label.cpp" />
+    <ClCompile Include="Classes\Log.cpp" />
+    <ClCompile Include="Classes\MapTileBase.cpp" />
+    <ClCompile Include="Classes\MapObject.cpp" />
+    <ClCompile Include="Classes\MessageLog.cpp" />
+    <ClCompile Include="Classes\Model.cpp" />
+    <ClCompile Include="Classes\Mouse.cpp" />
+    <ClCompile Include="Classes\MouseRawInput.cpp" />
+    <ClCompile Include="Classes\Music.cpp" />
+    <ClCompile Include="Classes\MusicOpenALOGG.cpp" />
+    <ClCompile Include="Classes\MusicXAudioOGG.cpp" />
+    <ClCompile Include="Classes\Node.cpp" />
+    <ClCompile Include="Classes\OGGFile.cpp" />
+    <ClCompile Include="Classes\OpenAL.cpp" />
+    <ClCompile Include="Classes\Pathfind.cpp" />
+    <ClCompile Include="Classes\PictureBox.cpp" />
+    <ClCompile Include="Classes\PixelShaderDirect3D9.cpp" />
+    <ClCompile Include="Classes\Quantity.cpp" />
+    <ClCompile Include="Classes\RadioButton.cpp" />
+    <ClCompile Include="Classes\Random.cpp" />
+    <ClCompile Include="Classes\RenderTarget.cpp" />
+    <ClCompile Include="Classes\RenderTargetDirect3D9.cpp" />
+    <ClCompile Include="Classes\ResourceFile.cpp" />
+    <ClCompile Include="Classes\ScreenEffect.cpp" />
+    <ClCompile Include="Classes\SignalBase.cpp" />
+    <ClCompile Include="Classes\Sound.cpp" />
+    <ClCompile Include="Classes\SoundOpenAL.cpp" />
+    <ClCompile Include="Classes\SoundOpenALOGG.cpp" />
+    <ClCompile Include="Classes\SoundXAudio.cpp" />
+    <ClCompile Include="Classes\SoundXAudioOGG.cpp" />
+    <ClCompile Include="Classes\Source.cpp" />
+    <ClCompile Include="Classes\SourceOpenAL.cpp" />
+    <ClCompile Include="Classes\SourceVoiceXAudio.cpp" />
+    <ClCompile Include="Classes\Sprite.cpp" />
+    <ClCompile Include="Classes\SurfaceDirect3D9.cpp" />
+    <ClCompile Include="Classes\Text.cpp" />
+    <ClCompile Include="Classes\TextBox.cpp" />
+    <ClCompile Include="Classes\TextDynamic.cpp" />
+    <ClCompile Include="Classes\TextDynamicWave.cpp" />
+    <ClCompile Include="Classes\TextDynamicZoom.cpp" />
+    <ClCompile Include="Classes\Texture.cpp" />
+    <ClCompile Include="Classes\TextureDirect3D9.cpp" />
+    <ClCompile Include="Classes\TileSet.cpp" />
+    <ClCompile Include="Classes\Timer.cpp" />
+    <ClCompile Include="Classes\ToolTip.cpp" />
+    <ClCompile Include="Classes\TrackBar.cpp" />
+    <ClCompile Include="Classes\VertexBufferDirect3D9.cpp" />
+    <ClCompile Include="Classes\VertexDeclarationDirect3D9.cpp" />
+    <ClCompile Include="Classes\VertexShaderDirect3D9.cpp" />
+    <ClCompile Include="Classes\Video.cpp" />
+    <ClCompile Include="Classes\VideoDirect3D9.cpp" />
+    <ClCompile Include="Classes\VideoMode.cpp" />
+    <ClCompile Include="Classes\View.cpp" />
+    <ClCompile Include="Classes\Window.cpp" />
+    <ClCompile Include="Classes\XAudio.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Application.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\Read Me.txt" />
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\ApplicationResource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Class Diagram.cd" />
+    <None Include="Shaders\Render.psh" />
+    <None Include="Shaders\Render.vsh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

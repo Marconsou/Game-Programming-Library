@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TT::GameTripleTriad" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAIAghQAQCAAWACCAAgIEAAFAIJAIAAkAdQIAAI=</HashCode>
+      <FileName>Classes\GameTripleTriad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::GameTopInterface" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Classes\GameTopInterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::MainMenu" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEwgQAJAAAACAAEAAAAAQAAQAAAEAAAIQAQhEAAQoAA=</HashCode>
+      <FileName>Classes\MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::MatchGame" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BKSBAYEBEEkgkwIE2ohAgAEYAABEAEAISAAggJJHQAQ=</HashCode>
+      <FileName>Classes\MatchGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::Card" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIREAICAAAAACBYCogsAAgBAA0AEAgABYAwhU0ACADQ=</HashCode>
+      <FileName>Classes\Card.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::RenderTargetCard" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAABAAAACAAYgIABAMAgAAAAAgAAAAgAA=</HashCode>
+      <FileName>Classes\RenderTargetCard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::Player" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBREogAACCBKgSQAUIyKJA0AQAAcAAAgAgggAwCEgIA=</HashCode>
+      <FileName>Classes\Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::CardStats" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAABAAJAAAAAIgAgRAAEMAAAAQAAgAAAAhgA=</HashCode>
+      <FileName>Classes\CardStats.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::Board" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQIAAAAAAIAAQAAAAAAAAgAAQQEiAAQAAAgACAAgIA=</HashCode>
+      <FileName>Classes\Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::Rule" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAEAAAAAAAAAAAAAAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Rule.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TT::Computer" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>Classes\Computer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TT::FileID" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAH+wwoAAgoAAAAICBAAFAAEAAAAAAAIAAAAAAQ=</HashCode>
+      <FileName>Classes\Main.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TT::Elemental" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAABACAAAAAAAAAAAAAABkAAAEAAAEAAEAQAA=</HashCode>
+      <FileName>Classes\CardStats.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TT::CardID" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgoriIC6gLVkAsAlES5SkpxgIBRHNO0VA1BEh8WDDDQ=</HashCode>
+      <FileName>Classes\CardStats.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TT::RuleID" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAIAAAAAAAAAAAAABABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Rule.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TT::ElementalModifier" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Classes\Card.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TT::BoardSlotLayout" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAQAAAAAAQAAAAAAAIAQAACACCEAAIAAA=</HashCode>
+      <FileName>Classes\Board.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TT::CardState" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAABAAAAAAAACAAAAAAAAQIAA=</HashCode>
+      <FileName>Classes\Card.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
