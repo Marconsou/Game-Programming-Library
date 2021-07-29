@@ -1,2 +1,1 @@
-# Game-Programming-Library
-Environment: PATH=%PATH%;$(SolutionDir)Redistributable
+This project is obsolete
