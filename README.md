@@ -1,5 +1,5 @@
 # Game Programming Library
-This project was developed using the following libraries:
+This project (now deprecated) was developed using the following libraries:
 - DirectX SDK - June 2010 (for Direct3D 9 and DirectInput) now deprecated.
 - FreeType
 - FreeImage
